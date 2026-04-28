@@ -1,0 +1,6 @@
+{"id":"docker-1","topic":"docker","text":"Use multi-stage builds to keep runtime images small and deterministic. Pin base image tags and remove package manager caches."}
+{"id":"k8s-1","topic":"kubernetes","text":"Set requests and limits for CPU and memory to avoid noisy-neighbor effects and OOM kills. Prefer readiness probes for rollout safety."}
+{"id":"linux-1","topic":"linux","text":"Use journalctl, top, vmstat, and /proc/meminfo to diagnose memory and CPU pressure quickly on small instances."}
+{"id":"terraform-1","topic":"terraform","text":"Use remote state with locking, module version pinning, and plan/apply separation in CI for safe infrastructure changes."}
+{"id":"node-1","topic":"nodejs","text":"For low-memory servers, avoid large dependency graphs, precompile TypeScript, and use clustering cautiously because of per-process overhead."}
+{"id":"devops-1","topic":"devops","text":"Cache dependencies and build artifacts. Instrument p95 latency and error rate. Use canary rollouts and automatic rollback signals."}
